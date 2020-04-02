@@ -10,6 +10,7 @@ import javax.swing.JPanel;
 
 public class Labirent extends JPanel {
 	
+
 	private final int Dolu = 30;
     private final int Bos = 20;
     private final int Sol_Carpisma = 1;
@@ -46,7 +47,7 @@ public class Labirent extends JPanel {
 
         addKeyListener(new TAdapter());
         setFocusable(true);
-        Oyun›cinde();
+        Oyunicinde();
     }
 
     public int getHaritaWidth() {
@@ -57,7 +58,7 @@ public class Labirent extends JPanel {
         return this.h;
     }
 
-    public final void Oyun›cinde() {
+    public final void Oyunicinde() {
         
         int x = Dolu;
         int y = Dolu;
@@ -348,7 +349,7 @@ public class Labirent extends JPanel {
         Fayanslar.clear();
         Kutular.clear();
         Duvarlar.clear();
-        Oyun›cinde();
+        Oyunicinde();
         if (Tamamlandi) {
             Tamamlandi = false;
 }}}
