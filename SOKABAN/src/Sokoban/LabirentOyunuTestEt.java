@@ -4,6 +4,7 @@ import javax.swing.JFrame;
 
 public class LabirentOyunuTestEt extends JFrame {
 
+	private static final long serialVersionUID = 1L;
 	private final int Bos = 30;
 	
 	public LabirentOyunuTestEt(){

@@ -10,7 +10,7 @@ import javax.swing.JPanel;
 
 public class Labirent extends JPanel {
 	
-
+	private static final long serialVersionUID = 1L;
 	private final int Dolu = 30;
     private final int Bos = 20;
     private final int Sol_Carpisma = 1;
