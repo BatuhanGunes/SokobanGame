@@ -103,7 +103,7 @@ public class Labirent extends JPanel {
 
     public void OyunuOlustur(Graphics g) {
 
-        g.setColor(new Color(250, 240, 170));	// Arka planin rengini Deðiþtirir.
+        g.setColor(new Color(250, 240, 170));	// Arka planin rengini Degistirir
         g.fillRect(0, 0, this.getWidth(), this.getHeight());
 
         ArrayList<Karakter> Oyun = new ArrayList<Karakter>();
