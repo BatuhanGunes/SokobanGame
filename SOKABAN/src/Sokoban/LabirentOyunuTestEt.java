@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 
 public class LabirentOyunuTestEt extends JFrame {
 
-private final int Bos = 30;
+	private final int Bos = 30;
 	
 	public LabirentOyunuTestEt(){
 		InitUI();

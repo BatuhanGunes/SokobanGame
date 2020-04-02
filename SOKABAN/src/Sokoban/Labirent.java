@@ -10,17 +10,16 @@ import javax.swing.JPanel;
 
 public class Labirent extends JPanel {
 	
-
-    private final int Dolu = 30;
+	private final int Dolu = 30;
     private final int Bos = 20;
     private final int Sol_Carpisma = 1;
     private final int Sag_Carpisma = 2;
     private final int Ust_Carpisma = 3;
     private final int Alt_Carpisma = 4;
 
-    private ArrayList Duvarlar = new ArrayList();
-    private ArrayList Kutular = new ArrayList();
-    private ArrayList Fayanslar = new ArrayList();
+    private ArrayList<Karakter> Duvarlar = new ArrayList<Karakter>();
+    private ArrayList<Karakter> Kutular = new ArrayList<Karakter>();
+    private ArrayList<Karakter> Fayanslar = new ArrayList<Karakter>();
     private Sokoban soko;
     private int w = 0;
     private int h = 0;
@@ -103,10 +102,10 @@ public class Labirent extends JPanel {
 
     public void OyunuOlustur(Graphics g) {
 
-        g.setColor(new Color(250, 240, 170));	// Arka planýn rengini Deðiþtirir.
+        g.setColor(new Color(250, 240, 170));	// Arka planin rengini Deðiþtirir.
         g.fillRect(0, 0, this.getWidth(), this.getHeight());
 
-        ArrayList Oyun = new ArrayList();
+        ArrayList<Karakter> Oyun = new ArrayList<Karakter>();
         Oyun.addAll(Duvarlar);
         Oyun.addAll(Fayanslar);
         Oyun.addAll(Kutular);
